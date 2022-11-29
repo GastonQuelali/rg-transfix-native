@@ -22,6 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "push-translation": "txjs-cli push src --token=1/0065d81ed52c38b77e09b3d978f36fe4d3ced7d9 --secret=1/e969cdca6bcc028541ae3ce25417c511064b3cb8",
+    "invalidate": "txjs-cli invalidate --token=1/0065d81ed52c38b77e09b3d978f36fe4d3ced7d9 --secret=1/e969cdca6bcc028541ae3ce25417c511064b3cb8",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
