@@ -1,0 +1,14 @@
+{
+    "Hello world": {
+        "string": "Bonjour le monde",
+        "context": "",
+        "developer_comment": "",
+        "character_limit": null
+    },
+    "Hello {username}": {
+        "string": "Hello {username}",
+        "context": "",
+        "developer_comment": "",
+        "character_limit": null
+    }
+}

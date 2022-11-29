@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><xliff version="1.2">
+  <file original="bairesdev" source-language="en" datatype="FILELESS" target-language="fr">
+    <body>
+      <trans-unit id="1" resname="3c806cca59a0401d959149731751db25">
+        <source>Hello {username}</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
