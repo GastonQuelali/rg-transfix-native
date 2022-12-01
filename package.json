@@ -23,8 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "push-translation": "txjs-cli push src --token=1/8a18fc39d446295c94e2e72b975bc44f16cc7c7f --secret=1/7d7593269b3226090d8ecfcacda7300ea1e7065c",
-    "invalidate": "txjs-cli invalidate --token=1/8a18fc39d446295c94e2e72b975bc44f16cc7c7f --secret=1/7d7593269b3226090d8ecfcacda7300ea1e7065c",
+    "push-translation": "txjs-cli push src --token= --secret=",
+    "invalidate": "txjs-cli invalidate --token= --secret=",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
