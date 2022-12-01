@@ -17,13 +17,14 @@
     "i18next": "^22.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "push-translation": "txjs-cli push src --token=1/0065d81ed52c38b77e09b3d978f36fe4d3ced7d9 --secret=1/e969cdca6bcc028541ae3ce25417c511064b3cb8",
-    "invalidate": "txjs-cli invalidate --token=1/0065d81ed52c38b77e09b3d978f36fe4d3ced7d9 --secret=1/e969cdca6bcc028541ae3ce25417c511064b3cb8",
+    "push-translation": "txjs-cli push src --token=1/8a18fc39d446295c94e2e72b975bc44f16cc7c7f --secret=1/7d7593269b3226090d8ecfcacda7300ea1e7065c",
+    "invalidate": "txjs-cli invalidate --token=1/8a18fc39d446295c94e2e72b975bc44f16cc7c7f --secret=1/7d7593269b3226090d8ecfcacda7300ea1e7065c",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
