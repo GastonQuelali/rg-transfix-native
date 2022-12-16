@@ -21,7 +21,7 @@ interface ILanguageProviderProps {
 
 export const LanguageProvider: FC<ILanguageProviderProps> = ({ children }) => {
   const [currentLanguage, setCurrentLanguage] = useState<string | null>(null);
-
+  console.log('curren language: ' , { currentLanguage });
   return (
     <LanguageContext.Provider
       value={{
@@ -36,10 +36,10 @@ export const LanguageProvider: FC<ILanguageProviderProps> = ({ children }) => {
 
 export const useCurrentLanguage = () => useContext(LanguageContext);
 
-export const useCurrentLanguage1 = () => {
+/* export const useCurrentLanguage1 = () => {
   const { currentLanguage } = useContext(LanguageContext);
 
   return {
     currentLanguage
   };
-};
+}; */

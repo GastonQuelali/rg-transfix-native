@@ -1,7 +1,7 @@
 import { LanguagePicker, T, UT, useLocale } from "@transifex/react";
 
 import { FC } from "react";
-import { useCurrentLanguage } from "../hooks/LanguageContext";
+import { useCurrentLanguage } from "../context/LanguageContext";
 
 const First: FC = () => {
   const { currentLanguage } = useCurrentLanguage();
